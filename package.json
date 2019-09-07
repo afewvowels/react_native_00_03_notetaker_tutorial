@@ -4,12 +4,20 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint app/",
+    "lint:fix": "eslint app/ --fix",
+    "prepush": "npm run lint && npm run test",
+    "postinstall": "rm -rf .git/hooks/pre-push && node node_modules/husky/lib/installer/is.js && rm -rf .git/hooks/pre-commit",
+    "test": "jest --verbose --coverage",
+    "test:update": "jest --verbose --coverage --updateSnapshot",
+    "test:watch": "jest --verbose --watch",
+    "coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "redux": "^4.0.4"
   },
   "devDependencies": {
     "@babel/core": "7.6.0",
@@ -17,7 +25,12 @@
     "@react-native-community/eslint-config": "0.0.3",
     "babel-jest": "24.9.0",
     "eslint": "6.3.0",
-    "jest": "24.9.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
     "metro-react-native-babel-preset": "0.54.1",
     "react-test-renderer": "16.8.6"
   },

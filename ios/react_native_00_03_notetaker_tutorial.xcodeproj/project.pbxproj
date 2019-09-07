@@ -12,10 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		249DFC67CA0B7C453B5597A2 /* libPods-react_native_00_03_notetaker_tutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2294B3C320ADAC4671EE228A /* libPods-react_native_00_03_notetaker_tutorial.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* react_native_00_03_notetaker_tutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* react_native_00_03_notetaker_tutorialTests.m */; };
+		BFA513ED6E2F64DE7E869471 /* libPods-react_native_00_03_notetaker_tutorialTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0759759B229EF517B33C22 /* libPods-react_native_00_03_notetaker_tutorialTests.a */; };
+		C267650967460B58597004EF /* libPods-react_native_00_03_notetaker_tutorial-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CC1759FE535F95C4A4B5C4 /* libPods-react_native_00_03_notetaker_tutorial-tvOS.a */; };
+		C9A85AEABB976AECDD2BAD5D /* libPods-react_native_00_03_notetaker_tutorial-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3383AA0F42B038DE42C407D /* libPods-react_native_00_03_notetaker_tutorial-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,8 @@
 		00E356EE1AD99517003FC87E /* react_native_00_03_notetaker_tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = react_native_00_03_notetaker_tutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* react_native_00_03_notetaker_tutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = react_native_00_03_notetaker_tutorialTests.m; sourceTree = "<group>"; };
+		09CC1759FE535F95C4A4B5C4 /* libPods-react_native_00_03_notetaker_tutorial-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_00_03_notetaker_tutorial-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E01DCE32C1A6363D30015DE /* Pods-react_native_00_03_notetaker_tutorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorialTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorialTests/Pods-react_native_00_03_notetaker_tutorialTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* react_native_00_03_notetaker_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react_native_00_03_notetaker_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = react_native_00_03_notetaker_tutorial/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = react_native_00_03_notetaker_tutorial/AppDelegate.m; sourceTree = "<group>"; };
@@ -47,10 +53,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = react_native_00_03_notetaker_tutorial/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = react_native_00_03_notetaker_tutorial/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = react_native_00_03_notetaker_tutorial/main.m; sourceTree = "<group>"; };
+		2200E532609B6222059E2541 /* Pods-react_native_00_03_notetaker_tutorial-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorial-tvOS.release.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorial-tvOS/Pods-react_native_00_03_notetaker_tutorial-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2294B3C320ADAC4671EE228A /* libPods-react_native_00_03_notetaker_tutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_00_03_notetaker_tutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0759759B229EF517B33C22 /* libPods-react_native_00_03_notetaker_tutorialTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_00_03_notetaker_tutorialTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* react_native_00_03_notetaker_tutorial-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react_native_00_03_notetaker_tutorial-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* react_native_00_03_notetaker_tutorial-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react_native_00_03_notetaker_tutorial-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD04A90429749126A04CD66 /* Pods-react_native_00_03_notetaker_tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorial.release.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorial/Pods-react_native_00_03_notetaker_tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		72CE8F4CC1930B5D9E481A7E /* Pods-react_native_00_03_notetaker_tutorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorialTests.debug.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorialTests/Pods-react_native_00_03_notetaker_tutorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90606A61F19B3ED754E9DC03 /* Pods-react_native_00_03_notetaker_tutorial-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorial-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorial-tvOSTests/Pods-react_native_00_03_notetaker_tutorial-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7E79D112679A43B7DDFE379 /* Pods-react_native_00_03_notetaker_tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorial.debug.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorial/Pods-react_native_00_03_notetaker_tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		B3383AA0F42B038DE42C407D /* libPods-react_native_00_03_notetaker_tutorial-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_00_03_notetaker_tutorial-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F68E0CE21DCFD1A224A8B5A9 /* Pods-react_native_00_03_notetaker_tutorial-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorial-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorial-tvOSTests/Pods-react_native_00_03_notetaker_tutorial-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF048B7DFFBD50F0CC399D56 /* Pods-react_native_00_03_notetaker_tutorial-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_00_03_notetaker_tutorial-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-react_native_00_03_notetaker_tutorial-tvOS/Pods-react_native_00_03_notetaker_tutorial-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA513ED6E2F64DE7E869471 /* libPods-react_native_00_03_notetaker_tutorialTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				249DFC67CA0B7C453B5597A2 /* libPods-react_native_00_03_notetaker_tutorial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C267650967460B58597004EF /* libPods-react_native_00_03_notetaker_tutorial-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A85AEABB976AECDD2BAD5D /* libPods-react_native_00_03_notetaker_tutorial-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				2294B3C320ADAC4671EE228A /* libPods-react_native_00_03_notetaker_tutorial.a */,
+				09CC1759FE535F95C4A4B5C4 /* libPods-react_native_00_03_notetaker_tutorial-tvOS.a */,
+				B3383AA0F42B038DE42C407D /* libPods-react_native_00_03_notetaker_tutorial-tvOSTests.a */,
+				2C0759759B229EF517B33C22 /* libPods-react_native_00_03_notetaker_tutorialTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47CDE2584A5D425DDC8513B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7E79D112679A43B7DDFE379 /* Pods-react_native_00_03_notetaker_tutorial.debug.xcconfig */,
+				3AD04A90429749126A04CD66 /* Pods-react_native_00_03_notetaker_tutorial.release.xcconfig */,
+				FF048B7DFFBD50F0CC399D56 /* Pods-react_native_00_03_notetaker_tutorial-tvOS.debug.xcconfig */,
+				2200E532609B6222059E2541 /* Pods-react_native_00_03_notetaker_tutorial-tvOS.release.xcconfig */,
+				90606A61F19B3ED754E9DC03 /* Pods-react_native_00_03_notetaker_tutorial-tvOSTests.debug.xcconfig */,
+				F68E0CE21DCFD1A224A8B5A9 /* Pods-react_native_00_03_notetaker_tutorial-tvOSTests.release.xcconfig */,
+				72CE8F4CC1930B5D9E481A7E /* Pods-react_native_00_03_notetaker_tutorialTests.debug.xcconfig */,
+				0E01DCE32C1A6363D30015DE /* Pods-react_native_00_03_notetaker_tutorialTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -140,6 +180,7 @@
 				00E356EF1AD99517003FC87E /* react_native_00_03_notetaker_tutorialTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				47CDE2584A5D425DDC8513B7 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -164,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "react_native_00_03_notetaker_tutorialTests" */;
 			buildPhases = (
+				71F2F3ABBAC0AF0F3B47FEB7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -182,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "react_native_00_03_notetaker_tutorial" */;
 			buildPhases = (
+				6CA538CC623030276996093B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -193,7 +236,7 @@
 			dependencies = (
 			);
 			name = react_native_00_03_notetaker_tutorial;
-			productName = "react_native_00_03_notetaker_tutorial";
+			productName = react_native_00_03_notetaker_tutorial;
 			productReference = 13B07F961A680F5B00A75B9A /* react_native_00_03_notetaker_tutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -201,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "react_native_00_03_notetaker_tutorial-tvOS" */;
 			buildPhases = (
+				3DAA72AE7895C8D0A1C7A446 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -220,6 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "react_native_00_03_notetaker_tutorial-tvOSTests" */;
 			buildPhases = (
+				608F34D8B324106BA587F039 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -342,6 +387,94 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		3DAA72AE7895C8D0A1C7A446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-react_native_00_03_notetaker_tutorial-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608F34D8B324106BA587F039 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-react_native_00_03_notetaker_tutorial-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA538CC623030276996093B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-react_native_00_03_notetaker_tutorial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71F2F3ABBAC0AF0F3B47FEB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-react_native_00_03_notetaker_tutorialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,6 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72CE8F4CC1930B5D9E481A7E /* Pods-react_native_00_03_notetaker_tutorialTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -469,6 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E01DCE32C1A6363D30015DE /* Pods-react_native_00_03_notetaker_tutorialTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -488,6 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E79D112679A43B7DDFE379 /* Pods-react_native_00_03_notetaker_tutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -507,6 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD04A90429749126A04CD66 /* Pods-react_native_00_03_notetaker_tutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -525,6 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF048B7DFFBD50F0CC399D56 /* Pods-react_native_00_03_notetaker_tutorial-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -552,6 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2200E532609B6222059E2541 /* Pods-react_native_00_03_notetaker_tutorial-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -579,6 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90606A61F19B3ED754E9DC03 /* Pods-react_native_00_03_notetaker_tutorial-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -605,6 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68E0CE21DCFD1A224A8B5A9 /* Pods-react_native_00_03_notetaker_tutorial-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
