@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
 import { TextInput } from 'react-native';
-import styles from './TextArea.component.style';
+import PropTypes from 'prop-types';
 
 export default class TextArea extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      text: ''
-    }
+  static propTypes = {
+    text: PropTypes.string,
+    onTextChange: PropTypes.func
   }
 
   render() {
-    const { text } = this.state;
+    const { style, text, onTextChange } = this.props;
     return (
       <TextInput
-        style={this.props.style}
-        multiline={true}
-        onChangeText={(text) => this.setState({text})}
+        style={style}
+        multiline
+        onChangeText={onTextChange}
         value={text}
       />
     );

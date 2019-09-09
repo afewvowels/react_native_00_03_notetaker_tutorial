@@ -1,6 +1,19 @@
-import React from 'react';
-import Home from './components/Home/Home.component';
+import React, { Component } from 'react';
+import { initStore } from './redux/store.js';
+import { Provider } from 'react-redux';
 
-const NoteTaker = () => <Home />;
+import App from './App.container';
+
+const store = initStore();
+
+class NoteTaker extends Component {
+  render() {
+    return(
+      <Provider store={store}>
+        <App />
+      </Provider>
+    );
+  }
+}
 
 export default NoteTaker;

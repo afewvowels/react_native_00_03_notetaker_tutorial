@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import { TextInput } from 'react-native';
-import styles from './TextArea.component.style';
 
 export default class TextArea extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: ''
-    }
+      textInputText: ''
+    };
   }
 
   render() {
     const alignTextTop = { textAlignVertical: 'top' };
-    const { text } = this.state;
+    const { textInputText } = this.state;
+    const { style } = this.props;
     return (
       <TextInput
-        style={[this.props.style, alignTextTop]}
-        multiLine={true}
-        onChangeText={(text) => this.setState({ text })}
-        value={text}
+        style={[style, alignTextTop]}
+        multiLine
+        onChangeText={() => this.setState({ textInputText })}
+        value={textInputText}
         underlineColorAndroid="transparent"
       />
     );

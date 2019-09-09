@@ -1,19 +1,44 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React, { Component } from 'react';
+import { View, Text, TextInput } from 'react-native';
 import styles from './Home.component.style';
 import TextArea from '../TextArea/TextArea.component';
+import PropTypes from 'prop-types';
 
-const Home = () => (
-  <View style={styles.container}>
-    <Text style={styles.textAreaTitle}>Please place your text here</Text>
-    <TextArea style={styles.textArea} />
-    <View styles={styles.bottomBar}>
-        <View styles={styles.bottomBarWrapper}>
-            <Text style={styles.saveBtn}>Save</Text>
-            <Text style={styles.characterCount}>{20} characters</Text>
+class Home extends Component {
+  render() {
+    const { setTitle, setText, title, text } = this.props;
+    return (
+      <View style={styles.container}>
+        <Text style={styles.titleHeading}>Note Title</Text>
+        <TextInput
+          style={styles.titleTextInput}
+          onChangeText={setTitle}
+          value={title}
+        />
+        <Text style={styles.textAreaTitle}>Please type your note below</Text>
+        <TextArea 
+            style={styles.textArea}
+            onTextChange={setText}
+            text={text}
+        />
+        <View style={styles.bottomBar}>
+          <Text style={styles.saveBtn}>Save</Text>
+          <Text style={styles.characterCount}>
+            {text.length}
+            {' '}
+            characters
+          </Text>
         </View>
-    </View>
-  </View>
-);
+      </View>
+    );
+  }
+}
+
+Home.propTypes = {
+    setTitle: PropTypes.func,
+    setText: PropTypes.func,
+    title: PropTypes.string,
+    text: PropTypes.string
+}
 
 export default Home;

@@ -6,42 +6,46 @@ export default StyleSheet.create({
     flex: 1,
     padding: theme.CONTAINER_PADDING,
     flexDirection: 'column',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    paddingTop: 35
   },
   textAreaTitle: {
-      fontSize: theme.FONT_SIZE_LARGE,
-      fontWeight: theme.FONT_WEIGHT_HEAVY,
-      alignSelf: 'flex-start',
-      padding: 10
+    fontSize: theme.FONT_SIZE_LARGE,
+    fontWeight: theme.FONT_WEIGHT_HEAVY,
+    alignSelf: 'flex-start',
+    padding: 10,
+    textAlign: 'center'
   },
   textArea: {
-      flex: 1,
-      padding: theme.CONTAINER_PADDING,
-      alignSelf: 'stretch',
-      overflow: 'scroll',
-      backgroundColor: theme.PRIMARY_DARK,
-      color: theme.FONT_LIGHT
+    flex: 1,
+    alignSelf: 'stretch',
+    overflow: 'scroll',
+    padding: theme.CONTAINER_PADDING,
+    paddingTop: 15,
+    marginBottom: 15,
+    backgroundColor: theme.PRIMARY_DARK,
+    color: theme.FONT_LIGHT
   },
   bottomBar: {
     flexDirection: 'row',
-    alignItems: 'center'
-  },
-  bottomBarWrapper: {
-    flexDirection: 'row',
-    flexWrap: 'nowrap',
-    justifyContent: 'space-around',
-    flex: 1
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginBottom: 15
   },
   saveBtn: {
     padding: 10,
     fontWeight: theme.FONT_WEIGHT_BOLD,
     color: theme.FONT_LIGHT,
     backgroundColor: theme.PRIMARY,
-    textAlign: 'center'
+    textAlign: 'center',
+    flex: 1
   },
   characterCount: {
-      padding: 10,
-      fontSize: theme.FONT_SIZE_SMALL,
-      backgroundColor: theme.SECONDARY
+    padding: 10,
+    fontSize: theme.FONT_SIZE_SMALL,
+    backgroundColor: theme.SECONDARY,
+    alignSelf: 'stretch',
+    flex: 1,
+    textAlign: 'center'
   }
 });
